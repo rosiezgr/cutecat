@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Світ Котиків</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe4e1;
+            color: #333;
+        }
+        header {
+            background-color: #ff99cc;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff99cc;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff66a1;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            background-color: #ff99cc;
+            padding: 10px;
+            margin-top: 20px;
+            color: #fff;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .video-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .video-list a {
+            display: block;
+            width: 300px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
+            transition: 0.3s;
+        }
+        .video-list a:hover {
+            background-color: #ff99cc;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ласкаво просимо у Світ Котиків!</h1>
+    </header>
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="videos.html">Милі відео</a>
+    </nav>
+    <main>
+        <!-- Для головної сторінки -->
+        <section>
+            <h2>Головна сторінка</h2>
+            <p>Ласкаво просимо до нашого рожевого світу котиків! Насолоджуйтесь милотою!</p>
+            <div class="gallery">
+                <img src="images/cat1.jpg" alt="Милий котик 1">
+                <img src="images/cat2.jpg" alt="Милий котик 2">
+                <img src="images/cat3.jpg" alt="Милий котик 3">
+				<img src="images/cat4.jpg" alt="Милий котик 4">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Світ Котиків</p>
+		<p> Група ІТІР-23-1 ♥</p>
+    </footer>
+</body>
+</html>
